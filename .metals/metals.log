@@ -1,0 +1,242 @@
+2024.04.29 23:55:38 INFO  Started: Metals version 0.11.12 in workspace '/Users/fangyude/Documents/fft-branch/Chisel-FFT-generator' for client Visual Studio Code 1.88.1.
+四月 29, 2024 11:55:38 下午 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+信息: Flyway Community Edition 9.16.3 by Redgate
+四月 29, 2024 11:55:38 下午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: See release notes here: https://rd.gt/416ObMi
+四月 29, 2024 11:55:38 下午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: 
+四月 29, 2024 11:55:38 下午 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+信息: Database: jdbc:h2:file:/Users/fangyude/Documents/fft-branch/Chisel-FFT-generator/.metals/metals (H2 2.1)
+四月 29, 2024 11:55:38 下午 org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+信息: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+四月 29, 2024 11:55:38 下午 org.flywaydb.core.internal.command.DbValidate validate
+信息: Successfully validated 4 migrations (execution time 00:00.008s)
+四月 29, 2024 11:55:38 下午 org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+信息: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+四月 29, 2024 11:55:38 下午 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+信息: Current version of schema "PUBLIC": << Empty Schema >>
+四月 29, 2024 11:55:38 下午 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+信息: Migrating schema "PUBLIC" to version "1 - Create tables"
+四月 29, 2024 11:55:38 下午 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+信息: Migrating schema "PUBLIC" to version "2 - Server discovery"
+四月 29, 2024 11:55:38 下午 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+信息: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+四月 29, 2024 11:55:38 下午 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+信息: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+四月 29, 2024 11:55:38 下午 org.flywaydb.core.internal.command.DbMigrate logSummary
+信息: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.053s)
+2024.04.29 23:55:38 INFO  time: initialize in 0.41s
+2024.04.29 23:55:39 WARN  Build server is not auto-connectable.
+2024.04.29 23:55:41 INFO  running '/Users/fangyude/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/8n/rqy5h7xs6f92vqcpx5y7ntdc0000gn/T/metals1849045341467305160/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.04.29 23:55:41 ERROR [info] [launcher] getting org.scala-sbt sbt 1.4.7  (this may take some time)...
+2024.04.29 23:55:41 WARN  no build target for: /Users/fangyude/Documents/fft-branch/Chisel-FFT-generator/project/metals.sbt
+2024.04.29 23:55:41 WARN  no build target for: /Users/fangyude/Documents/fft-branch/Chisel-FFT-generator/project/project/metals.sbt
+2024.04.29 23:55:41 INFO  skipping build import with status 'Started'
+2024.04.29 23:55:53 INFO  no build target found for /Users/fangyude/Documents/fft-branch/Chisel-FFT-generator/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+2024.04.29 23:55:57 ERROR [info] [launcher] getting Scala 2.12.12 (for sbt)...
+2024.04.29 23:56:00 INFO  [info] welcome to sbt 1.4.7 (Amazon.com Inc. Java 1.8.0_412)
+2024.04.29 23:56:02 INFO  [info] loading settings for project chisel-fft-generator-build-build-build from metals.sbt ...
+2024.04.29 23:56:02 INFO  [info] loading project definition from /Users/fangyude/Documents/fft-branch/Chisel-FFT-generator/project/project/project
+2024.04.29 23:56:05 INFO  [info] loading settings for project chisel-fft-generator-build-build from metals.sbt ...
+2024.04.29 23:56:05 INFO  [info] loading project definition from /Users/fangyude/Documents/fft-branch/Chisel-FFT-generator/project/project
+2024.04.29 23:56:10 INFO  [success] Generated .bloop/chisel-fft-generator-build-build.json
+2024.04.29 23:56:10 INFO  [success] Total time: 5 s, completed 2024-4-29 23:56:10
+2024.04.29 23:56:10 INFO  [info] loading settings for project chisel-fft-generator-build from metals.sbt,plugins.sbt ...
+2024.04.29 23:56:10 INFO  [info] loading project definition from /Users/fangyude/Documents/fft-branch/Chisel-FFT-generator/project
+2024.04.29 23:56:11 INFO  [success] Total time: 1 s, completed 2024-4-29 23:56:11
+2024.04.29 23:56:13 INFO  [info] loading settings for project chisel-fft-generator from build.sbt ...
+2024.04.29 23:56:13 INFO  [info] set current project to chisel-module-template (in build file:/Users/fangyude/Documents/fft-branch/Chisel-FFT-generator/)
+2024.04.29 23:56:23 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2024.04.29 23:56:25 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2024.04.29 23:56:25 INFO  [success] Generated .bloop/chisel-fft-generator-test.json
+2024.04.29 23:56:25 INFO  [success] Generated .bloop/chisel-fft-generator.json
+2024.04.29 23:56:25 INFO  [success] Total time: 12 s, completed 2024-4-29 23:56:25
+2024.04.29 23:56:25 INFO  time: ran 'sbt bloopInstall' in 44s
+2024.04.29 23:56:25 INFO  Attempting to connect to the build server...
+2024.04.29 23:56:25 INFO  Bloop uses /Users/fangyude/.sdkman/candidates/java/current defined at /Users/fangyude/.bloop/bloop.json
+2024.04.29 23:56:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/fangyude/Documents/fft-branch/Chisel-FFT-generator/.metals/bsp.trace.json or /Users/fangyude/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.04.29 23:56:27 INFO  Attempting to connect to the build server...
+2024.04.29 23:56:27 INFO  Bloop uses /Users/fangyude/.sdkman/candidates/java/current defined at /Users/fangyude/.bloop/bloop.json
+2024.04.29 23:56:27 INFO  Attempting to connect to the build server...
+2024.04.29 23:56:27 INFO  Bloop uses /Users/fangyude/.sdkman/candidates/java/current defined at /Users/fangyude/.bloop/bloop.json
+2024.04.29 23:56:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/fangyude/Documents/fft-branch/Chisel-FFT-generator/project/project/.metals/bsp.trace.json or /Users/fangyude/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.04.29 23:56:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/fangyude/Documents/fft-branch/Chisel-FFT-generator/project/.metals/bsp.trace.json or /Users/fangyude/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.04.29 23:56:32 INFO  time: Connected to build server in 7.09s
+2024.04.29 23:56:32 INFO  Connected to Build server: Bloop v1.5.6
+2024.04.29 23:56:41 ERROR Failed to fetch mtags for 2.12.8
+Error downloading org.scalameta:mtags_2.12.8:0.11.12
+  not found: /Users/fangyude/.ivy2/local/org.scalameta/mtags_2.12.8/0.11.12/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+  not found: /Users/fangyude/.ivy2/local/org.scalameta/mtags_2.12.8/0.11.12/ivys/ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+2024.04.29 23:56:43 ERROR Failed to fetch mtags for 2.12.8
+Error downloading org.scalameta:mtags_2.12.8:0.11.12
+  not found: /Users/fangyude/.ivy2/local/org.scalameta/mtags_2.12.8/0.11.12/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+  not found: /Users/fangyude/.ivy2/local/org.scalameta/mtags_2.12.8/0.11.12/ivys/ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+2024.04.29 23:56:45 INFO  compiling chisel-fft-generator (7 scala sources)
+2024.04.29 23:56:46 ERROR Failed to fetch mtags for 2.12.8
+Error downloading org.scalameta:mtags_2.12.8:0.11.12
+  not found: /Users/fangyude/.ivy2/local/org.scalameta/mtags_2.12.8/0.11.12/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+  not found: /Users/fangyude/.ivy2/local/org.scalameta/mtags_2.12.8/0.11.12/ivys/ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+2024.04.29 23:56:46 INFO  No mtags for 2.12.8.
+2024.04.29 23:56:46 INFO  No mtags for 2.12.8.
+2024.04.29 23:56:46 WARN  unsupported Scala 2.12.8
+2024.04.29 23:56:46 INFO  No mtags for 2.12.8.
+2024.04.29 23:56:46 WARN  unsupported Scala 2.12.8
+2024.04.29 23:56:46 INFO  No mtags for 2.12.8.
+2024.04.29 23:56:46 WARN  unsupported Scala 2.12.8
+2024.04.29 23:56:48 INFO  time: indexed workspace in 15s
+2024.04.29 23:56:48 INFO  No mtags for 2.12.8.
+2024.04.29 23:56:48 WARN  unsupported Scala 2.12.8
+2024.04.29 23:56:49 INFO  No mtags for 2.12.8.
+2024.04.29 23:56:49 WARN  unsupported Scala 2.12.8
+2024.04.29 23:56:49 INFO  No mtags for 2.12.8.
+2024.04.29 23:56:49 WARN  unsupported Scala 2.12.8
+2024.04.29 23:57:02 WARN  there were 163 feature warnings; re-run with -feature for details
+2024.04.29 23:57:02 INFO  time: compiled chisel-fft-generator in 17s
+2024.04.29 23:57:02 INFO  compiling chisel-fft-generator-test (1 scala source)
+2024.04.29 23:57:03 WARN  there were 12 feature warnings; re-run with -feature for details
+2024.04.29 23:57:03 INFO  time: compiled chisel-fft-generator-test in 0.92s
+2024.04.29 23:57:21 INFO  No mtags for 2.12.8.
+2024.04.29 23:57:21 WARN  unsupported Scala 2.12.8
+2024.04.29 23:57:25 INFO  No mtags for 2.12.8.
+2024.04.29 23:57:25 WARN  unsupported Scala 2.12.8
+2024.04.29 23:57:25 INFO  No mtags for 2.12.8.
+2024.04.29 23:57:25 WARN  unsupported Scala 2.12.8
+2024.04.29 23:57:35 INFO  No mtags for 2.12.8.
+2024.04.29 23:57:35 WARN  unsupported Scala 2.12.8
+2024.04.29 23:57:35 INFO  No mtags for 2.12.8.
+2024.04.29 23:57:35 WARN  unsupported Scala 2.12.8
+2024.04.29 23:58:32 INFO  No mtags for 2.12.8.
+2024.04.29 23:58:32 WARN  unsupported Scala 2.12.8
+2024.04.29 23:58:32 INFO  No mtags for 2.12.8.
+2024.04.29 23:58:32 WARN  unsupported Scala 2.12.8
+2024.04.29 23:58:32 INFO  No mtags for 2.12.8.
+2024.04.29 23:58:32 WARN  unsupported Scala 2.12.8
+2024.04.29 23:58:32 INFO  No mtags for 2.12.8.
+2024.04.29 23:58:32 WARN  unsupported Scala 2.12.8
+2024.04.29 23:58:33 WARN  Using indexes to guess the definition of Input
+2024.04.29 23:58:34 INFO  No mtags for 2.12.8.
+2024.04.29 23:58:34 WARN  unsupported Scala 2.12.8
+2024.04.29 23:58:34 INFO  No mtags for 2.12.8.
+2024.04.29 23:58:34 WARN  unsupported Scala 2.12.8
+2024.04.29 23:58:34 INFO  No mtags for 2.12.8.
+2024.04.29 23:58:34 WARN  unsupported Scala 2.12.8
+2024.04.29 23:58:33 WARN  Using indexes to guess the definition of Input
+2024.04.29 23:58:34 INFO  No mtags for 2.12.8.
+2024.04.29 23:58:34 WARN  unsupported Scala 2.12.8
+2024.04.29 23:58:36 INFO  time: code lens generation in 1.96s
+2024.04.29 23:58:42 INFO  No mtags for 2.12.8.
+2024.04.29 23:58:42 WARN  unsupported Scala 2.12.8
+2024.04.29 23:58:42 INFO  No mtags for 2.12.8.
+2024.04.29 23:58:42 WARN  unsupported Scala 2.12.8
+四月 30, 2024 12:58:50 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+2024.04.30 23:14:46 ERROR Failed to fetch mtags for 2.12.8
+Error downloading org.scalameta:mtags_2.12.8:0.11.12
+  not found: /Users/fangyude/.ivy2/local/org.scalameta/mtags_2.12.8/0.11.12/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+  not found: /Users/fangyude/.ivy2/local/org.scalameta/mtags_2.12.8/0.11.12/ivys/ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+2024.04.30 23:14:46 WARN  unsupported Scala 2.12.8
+2024.04.30 23:14:46 INFO  No mtags for 2.12.8.
+2024.04.30 23:14:46 WARN  unsupported Scala 2.12.8
+2024.04.30 23:15:02 INFO  No mtags for 2.12.8.
+2024.04.30 23:15:02 WARN  unsupported Scala 2.12.8
+四月 30, 2024 11:15:04 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+2024.04.30 23:15:07 INFO  No mtags for 2.12.8.
+2024.04.30 23:15:07 WARN  unsupported Scala 2.12.8
+2024.04.30 23:17:14 INFO  No mtags for 2.12.8.
+2024.04.30 23:17:14 WARN  unsupported Scala 2.12.8
+2024.04.30 23:18:21 INFO  No mtags for 2.12.8.
+2024.04.30 23:18:21 WARN  unsupported Scala 2.12.8
+2024.04.30 23:18:58 INFO  No mtags for 2.12.8.
+2024.04.30 23:18:58 WARN  unsupported Scala 2.12.8
+五月 01, 2024 3:18:51 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+2024.05.01 03:19:05 INFO  Shutting down server
+2024.05.01 03:19:05 INFO  shutting down Metals
+2024.05.01 03:19:05 INFO  Shut down connection with build server.
+2024.05.01 03:19:05 INFO  Shut down connection with build server.
+2024.05.01 03:19:05 INFO  Shut down connection with build server.
+2024.05.01 03:19:05 INFO  Exiting server
+2024.05.01 03:19:22 INFO  Started: Metals version 0.11.12 in workspace '/Users/fangyude/Documents/fft-branch/Chisel-FFT-generator' for client Visual Studio Code 1.88.1.
+五月 01, 2024 3:19:22 上午 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+信息: Flyway Community Edition 9.16.3 by Redgate
+五月 01, 2024 3:19:22 上午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: See release notes here: https://rd.gt/416ObMi
+五月 01, 2024 3:19:22 上午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: 
+五月 01, 2024 3:19:22 上午 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+信息: Database: jdbc:h2:file:/Users/fangyude/Documents/fft-branch/Chisel-FFT-generator/.metals/metals (H2 2.1)
+五月 01, 2024 3:19:22 上午 org.flywaydb.core.internal.command.DbValidate validate
+信息: Successfully validated 4 migrations (execution time 00:00.012s)
+五月 01, 2024 3:19:22 上午 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+信息: Current version of schema "PUBLIC": 4
+五月 01, 2024 3:19:22 上午 org.flywaydb.core.internal.command.DbMigrate logSummary
+信息: Schema "PUBLIC" is up to date. No migration necessary.
+2024.05.01 03:19:22 INFO  time: initialize in 0.37s
+2024.05.01 03:19:23 INFO  Attempting to connect to the build server...
+2024.05.01 03:19:23 INFO  skipping build import with status 'Installed'
+2024.05.01 03:19:23 INFO  Bloop uses /Users/fangyude/.sdkman/candidates/java/current defined at /Users/fangyude/.bloop/bloop.json
+2024.05.01 03:19:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/fangyude/Documents/fft-branch/Chisel-FFT-generator/.metals/bsp.trace.json or /Users/fangyude/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.01 03:19:26 INFO  Attempting to connect to the build server...
+2024.05.01 03:19:26 INFO  Bloop uses /Users/fangyude/.sdkman/candidates/java/current defined at /Users/fangyude/.bloop/bloop.json
+2024.05.01 03:19:26 INFO  Attempting to connect to the build server...
+2024.05.01 03:19:26 INFO  Bloop uses /Users/fangyude/.sdkman/candidates/java/current defined at /Users/fangyude/.bloop/bloop.json
+2024.05.01 03:19:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/fangyude/Documents/fft-branch/Chisel-FFT-generator/project/project/.metals/bsp.trace.json or /Users/fangyude/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.01 03:19:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/fangyude/Documents/fft-branch/Chisel-FFT-generator/project/.metals/bsp.trace.json or /Users/fangyude/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.01 03:19:26 INFO  time: Connected to build server in 2.56s
+2024.05.01 03:19:26 INFO  Connected to Build server: Bloop v1.5.6
+2024.05.01 03:19:26 INFO  no build target found for /Users/fangyude/Documents/fft-branch/Chisel-FFT-generator/src/main/scala/FFT/Modules.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2024.05.01 03:19:26 INFO  time: code lens generation in 3.02s
+2024.05.01 03:19:26 INFO  no build target found for /Users/fangyude/Documents/fft-branch/Chisel-FFT-generator/src/main/scala/FFT/Modules.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2024.05.01 03:19:28 INFO  time: code lens generation in 3.38s
+五月 01, 2024 3:19:34 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+五月 01, 2024 3:19:52 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+2024.05.01 03:24:02 ERROR Failed to fetch mtags for 2.12.8
+Error downloading org.scalameta:mtags_2.12.8:0.11.12
+  not found: /Users/fangyude/.ivy2/local/org.scalameta/mtags_2.12.8/0.11.12/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+  not found: /Users/fangyude/.ivy2/local/org.scalameta/mtags_2.12.8/0.11.12/ivys/ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+2024.05.01 03:24:05 ERROR Failed to fetch mtags for 2.12.8
+Error downloading org.scalameta:mtags_2.12.8:0.11.12
+  not found: /Users/fangyude/.ivy2/local/org.scalameta/mtags_2.12.8/0.11.12/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+  not found: /Users/fangyude/.ivy2/local/org.scalameta/mtags_2.12.8/0.11.12/ivys/ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+2024.05.01 03:24:07 ERROR Failed to fetch mtags for 2.12.8
+Error downloading org.scalameta:mtags_2.12.8:0.11.12
+  not found: /Users/fangyude/.ivy2/local/org.scalameta/mtags_2.12.8/0.11.12/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+  not found: /Users/fangyude/.ivy2/local/org.scalameta/mtags_2.12.8/0.11.12/ivys/ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.12.8/0.11.12/mtags_2.12.8-0.11.12.pom
+2024.05.01 03:24:07 INFO  No mtags for 2.12.8.
+2024.05.01 03:24:09 INFO  time: indexed workspace in 4m42s
+2024.05.01 03:24:09 INFO  No mtags for 2.12.8.
+2024.05.01 03:24:09 WARN  unsupported Scala 2.12.8
+2024.05.01 03:26:43 INFO  compiling chisel-fft-generator (7 scala sources)
+2024.05.01 03:26:46 WARN  there were 163 feature warnings; re-run with -feature for details
+2024.05.01 03:26:46 INFO  time: compiled chisel-fft-generator in 3.25s
+2024.05.01 03:26:46 INFO  compiling chisel-fft-generator-test (1 scala source)
+2024.05.01 03:26:46 WARN  there were 12 feature warnings; re-run with -feature for details
+2024.05.01 03:26:46 INFO  time: compiled chisel-fft-generator-test in 0.43s
+2024.05.01 03:26:47 INFO  No mtags for 2.12.8.
+2024.05.01 03:26:47 WARN  unsupported Scala 2.12.8
+2024.05.01 03:26:57 INFO  No mtags for 2.12.8.
+2024.05.01 03:26:57 WARN  unsupported Scala 2.12.8
