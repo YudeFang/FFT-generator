@@ -26,6 +26,8 @@ initial begin
         $readmemb("tw512.txt", rom);
     else if (ADDR_DEPTH == 1024)
         $readmemb("tw1024.txt", rom);
+    else if (ADDR_DEPTH == 2048)
+        $readmemb("tw2048.txt", rom);
 end
 
 always @(posedge clock) begin
