@@ -39,3 +39,4 @@ trait Config {
   val datalength = (FFTlength / (radix * FFTparallel_r))
   val DataWidth = if(use_float) float_point_format + 1 else FixDataWidth
 }
+// quick support 

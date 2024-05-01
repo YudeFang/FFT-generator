@@ -94,6 +94,7 @@ class ComplexSub[T <: MyComplex](complex:T) extends Module with Config {
     io.res.im := io.op1.im.asFixedPoint(BinaryPoint.BP) - io.op2.im.asFixedPoint(BinaryPoint.BP)
   }
 }
+
 object ComplexSub extends Config{
   def apply(op1: MyComplex, op2: MyComplex): MyComplex = {
     val complex = if(use_float) new MyFloatComplex else new MyFixComplex
